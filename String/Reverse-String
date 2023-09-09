@@ -1,0 +1,5 @@
+let str = "Everyone need Education";
+
+for(let i = str.length ; i >= 0 ; i--){
+
+}
