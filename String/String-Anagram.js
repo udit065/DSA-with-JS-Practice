@@ -12,7 +12,7 @@
 // let str2 = "loleh";
 
 let s = "anagram";
-let t = "nagddaram";
+let t = "nagraam";
 
 var isAnagram = function (s, t) {
     if (s.length != t.length) {
