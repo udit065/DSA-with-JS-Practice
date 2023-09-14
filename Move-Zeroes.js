@@ -7,7 +7,8 @@
 // Input: nums = [0]
 // Output: [0]
 
-let nums = [0, 1, 0, 3, 12, 0 , 5 , 0 , 6];
+// Correct for Space Complexity O(n)
+// let nums = [0, 1, 0, 3, 12, 0 , 5 , 0 , 6];
 
 var moveZeroes = function (nums) {
     let temp = [];
@@ -25,4 +26,22 @@ var moveZeroes = function (nums) {
     console.log(temp);
 };
 
-moveZeroes(nums);
+// moveZeroes(nums);
+
+// Doing it with Space Complexity O(1)
+
+let nums = [0, 1, 0, 3, 12, 0, 55];
+
+function moveZeroToRight(nums) {
+    let zeroPointer = 0;
+    for (let i = 0; i < nums.length; i++) {
+        if (nums[i] !== 0) {
+            [nums[i], nums[zeroPointer]] = [nums[zeroPointer], nums[i]];
+
+            zeroPointer++;
+        }
+    }
+    console.log(nums)
+}
+// moveZeroToRight(nums);
+
