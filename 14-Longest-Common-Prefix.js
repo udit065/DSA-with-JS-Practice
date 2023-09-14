@@ -1,8 +1,7 @@
+//14. Longest Common Prefix
 // Write a function to find the longest common prefix string amongst an array of strings.
 
 // If there is no common prefix, return an empty string "".
-
- 
 
 // Example 1:
 
@@ -13,3 +12,11 @@
 // Input: strs = ["dog","racecar","car"]
 // Output: ""
 // Explanation: There is no common prefix among the input strings.
+
+let strs = ["flower", "flow", "flight"];
+
+var longestCommonPrefix = function (strs) {
+
+};
+
+longestCommonPrefix(strs);

@@ -20,6 +20,6 @@ var findDuplicate = function (nums) {
             console.log(elm);
         }
     }
-    // console.log(count)
+    // console.log(count);
 };
-findDuplicate(nums);
+// findDuplicate(nums);

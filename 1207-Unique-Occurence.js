@@ -1,4 +1,5 @@
-// Given an array of integers arr, return true if the number of occurrences of 
+// 1207. Unique Number of Occurrences
+// Given an array of integers arr, return true if the number of occurrences of
 // each value in the array is unique or false otherwise.
 
 // Example 1:
@@ -15,3 +16,6 @@
 // Input: arr = [-3,0,1,-3,1,1,1,-3,10,0]
 // Output: true
 
+var uniqueOccurrences = function(arr) {
+    
+};
