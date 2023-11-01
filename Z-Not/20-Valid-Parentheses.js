@@ -20,3 +20,5 @@
 
 // Input: s = "(]"
 // Output: false
+
+//Stack se hoga

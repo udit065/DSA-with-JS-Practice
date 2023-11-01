@@ -8,7 +8,7 @@
 // Input: nums = [3,1,3,4,2]
 // Output: 3
 
-let nums = [3, 1, 4, 4, 2];
+let nums = [3, 1, 4, 4, 2,2];
 
 var findDuplicate = function (nums) {
     let count = {};
